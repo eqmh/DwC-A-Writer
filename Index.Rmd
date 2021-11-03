@@ -61,7 +61,7 @@ Set `fileName`to the name of the longformat data table from your survey
 ```{r, echo=T, warning=FALSE, message=FALSE}
 
 # Select your data table
-fileName = "DataSheet_longformat_TEST.xlsx"
+fileName = "DataSheet_longformat_TEST_v2.xlsx"
 ```
 
 
