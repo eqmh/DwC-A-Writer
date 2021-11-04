@@ -256,8 +256,8 @@ DF.dataWide = dcast(occurrenceID+LOCALITY+SITE+STRATA+SAMPLE+scientificName+Aphi
 
 ## Save files
 ```{r, echo=T, warning=FALSE, message=FALSE}
-rootFileName = paste(unique(DF.sites$countryCodeISO), paste0(unique(DF.sites$localityCode, collapse="-")), 
-                     unique(DF.sites$HABITAT), gsub("-","", min(DF.sites$eventDate)), sep="_")
+rootFileName = paste(unique(DF.sites$countryCodeISO), unique(DF.sites$HABITAT), 
+                        gsub("-","", min(DF.sites$eventDate)), sep="_")
 
 ## IPT files
 readr::write_csv(IPT.event, path = file.path(baseIPT,paste0(rootFileName, "_IPT-event.csv")))
