@@ -1,6 +1,6 @@
 ---
 title: "DwC-A Writer"
-author: "Eduardo Klein and Enrique Montes (emontesh@usf.edu)"
+author: "Eduardo Klein and Enrique Montes (enrique.montes@noaa.gov)"
 date: "10/7/2020"
 output:
   html_document:
